@@ -10,37 +10,187 @@
       margin: 0;
       border: 0;
       background-color: black;
+      color : white;
     }
-    .menu{
-      margin: 0;
+
+    .menu-container{
+      border: 1px solid yellow;
+      margin: 5px;
+
+    }
+    
+    .menu {
+      margin: 2;
       background-color: black;
       color: white;
-      font-size: 30px;
-      
+      /* font-size: 15px; */
+      /* flex-wrap: wrap; */
+      border:1px solid yellow;
     }
+
+    .position_absolute {
+      color: white;
+      position: absolute;
+      right: 0px;
+      top: 25px;
+    }
+
+    .MUSINSA {
+      color: white;
+    }
+
+    /* .main{
+      
+    } */
+
+    .mainbox {
+      margin: 0;
+    }
+
+    .mainbox:hover {
+      width: 200px;
+      height: 100px;
+    }
+
+    .propose {}
   </style>
 </head>
-<body>
-  <header>
-    <header>Menu List</header>
-    <h5>
-      <span class="menu">|</span>
-      <span class="menu">MUSINSA</span>
-      <span class="menu">BEAUTY</span>
-      <span class="menu">PLAYER</span>
-      <span class="menu">OUTLET</span>
-      <span class="menu">BOUTIQUE</span>
-      <span class="menu">SHOES</span>
-      <span class="menu">KIDS</span>
-      <span class="menu">|</span>
-      <span class="menu">(S)SNAP</span>
-    </h5>
-  </header>
-  <main>
-    <div>
 
+<body>
+  <header>Menu List</header>
+  <h5>
+    <nav>
+      <div class="menu-container">
+        <span class="menu">|</span>
+        <span class="menu">MUSINSA</span>
+        <span class="menu">BEAUTY</span>
+        <span class="menu">PLAYER</span>
+        <span class="menu">OUTLET</span>
+        <span class="menu">BOUTIQUE</span>
+        <span class="menu">SHOES</span>
+        <span class="menu">KIDS</span>
+        <span class="menu">|</span>
+        <span class="menu">(S)SNAP</span>
+      </div>
+    </nav>
+    <h3>MUSINSA</h3>
+    <div class="position_absolute">검색</div>
+    <div class="position_absolute">좋아요</div>
+    <div class="position_absolute">마이</div>
+    <div class="position_absolute">장바구니</div>
+  </h5>
+  <main>
+    <div class="mainbox">콘텐츠</div>
+    <div class="mainbox">추천</div>
+    <div class="mainbox">랭킹</div>
+    <div class="mainbox">세일</div>
+    <div class="mainbox">브랜드</div>
+    <div class="mainbox">발매</div>
+    <div class="mainbox">상반기 결산</div>
+    <div class="mainbox">최저가 보상제</div>
+    <div class="mainbox"></div>
+      <div class="propose">결산 빅세일</div>
+      <div class="propose">젝시믹스</div>
+      <div class="propose">코난 극장판</div>
+      <div class="propose">전북 현대 30주년</div>
+      <div class="propose">최저가 보상제</div>
+      <div class="propose">돈 버는 회원혜택</div>
+      <div class="propose">폭염대비</div>
+      <div class="propose">한화이글스</div>
+      <div class="propose">전남드래곤즈</div>
+      <div class="propose">990딜</div>
+      <div class="propose">무신사머니</div>
+      <div class="propose">상품권 선물하기</div>
+      <div class="propose">브랜드위크</div>
+      <div class="propose">타임세일</div>
+      <div class="propose">무배당발</div>
+      <div class="propose">후기왕</div>
+      <div class="propose">체험단</div>
+      <div class="propose">귀여운 키링</div>
+      <div class="propose">라이브</div>
+      <section>
+        <div class="fitness">
+          <div class="main--head">
+            <div class="main--text-fitness">
+              <div class="main--content">
+                <div class="reward"></div>
+                <div class="reward"></div>
+                <div class="reward"></div>
+                <div class="reward"></div>
+                <div class="reward"></div>
+                <div class="reward"></div>
+                <div class="reward"></div>
+                <div class="reward"></div>
+                <div class="reward"></div>
+                <div class="reward"></div>
+                <div class="reward"></div>
+                <div class="reward"></div>
+              </div>
+            </div>
+          </div>
+          <div class="casual">
+            <div class="main--head">
+              <div class="main--text-casual">
+                <div class="main--text-seemore">
+                  <div class="main--content">
+                    <div class="reward"></div>
+                    <div class="reward"></div>
+                    <div class="reward"></div>
+                    <div class="reward"></div>
+                    <div class="reward"></div>
+                    <div class="reward"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="live">
+            <div class="main--head">
+              <div class="main--text-live">
+                <div class="main--content">
+                  <div class="reward"></div>
+                  <div class="reward"></div>
+                  <div class="reward"></div>
+                  <div class="reward"></div>
+                  <div class="reward"></div>
+                  <div class="reward"></div>
+                </div>
+              </div>
+            </div>
+            <div class="main-head">
+              <ul>
+                <li>
+                  <div></div>
+                </li>
+                <li>
+                  <div></div>
+                </li>
+                <li>
+                  <div></div>
+                </li>
+                <li>
+                  <div></div>
+                </li>
+                <li>
+                  <div></div>
+                </li>
+                <li>
+                  <div></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </section>
     </div>
   </main>
+  <div class="사업자정보"></div>
+  <div class="법적고지사항"></div>
+  <div class="파트너지원"></div>
+  <div class="고객지원"></div>
+  <div class="저작권메시지"></div>
+  <div class="방침,약관,위탁사"></div>
+  <div class="메시지"></div>
+  <div class="아이콘"></div>
 </body>
 
 </html>
