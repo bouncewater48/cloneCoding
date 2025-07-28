@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>무신사 클론코딩</title>
+  <title>MUSINSA CloneCoding</title>
   <style>
     * {
       margin: 0;
@@ -13,47 +13,48 @@
       /* color: white; */
     }
 
-    /* .img.src {
-      width="10px"height="10px"color="white"
-    } */
 
     .menu-container {
       border: 1px solid black;
       margin: 2px;
       background-color: black;
-      align-items: center;
+      color: white;
+      height: 22px;
     }
 
     .menu {
       margin: 2;
-      /* background-color: black; */
+      background-color: black;
       color: white;
       font-size: 12px;
       /* flex-wrap: wrap; */
-      border: 1px;
-      align-items: center;
+      border: 2px;
+      display: inleine-block;
     }
-    
-    .menu-sticky{
+
+    .menu-sticky {
       position: sticky;
       top: 10%;
     }
 
-    .banner-section{
+    .banner-section {
       display: flex;
-      align-items : center;
     }
 
-    .banner--inline{
+    .banner--inline {
       flex: 1;
       position: relative;
       display: inline-block;
     }
 
     .banner--inline img {
-      width: 150px;
-      height: 150px;
-      display:block;
+      width: 500px;
+      height: 500px;
+    }
+
+
+    .mainbox {
+      border: 2px;
     }
 
     .position_relative-container {
@@ -69,7 +70,6 @@
       right: 0px;
       top: 25px;
       font-size: 11px;
-
     }
 
 
@@ -83,18 +83,16 @@
       color: white;
     }
 
-    .logo-container{
+    .logo-container {
       border: 50px solid white;
       color: white;
       padding: 10%;
     }
 
-    /* .main{
-      
-    } */
 
     .mainbox {
       margin: 0;
+
     }
 
     .mainbox:hover {
@@ -112,15 +110,12 @@
       width: 10px;
       height: 10px;
     }
-
-    /* .propose:hover {
-      background-color: #f7f7f7;
-    } */
   </style>
 </head>
 
 <body>
   <header></header>
+  <!-- 화면 최상단 메뉴창 -->
   <div class="menu-container">
     <!-- <span class="menu"></span> -->
     <a href="img/free-icon-menu-4315559.png">
@@ -148,45 +143,157 @@
   </div>
 
 
+
+  <!-- 검색창 및 메뉴창 -->
   <div class="logo">
     <strong>MUSINSA</strong><br>
     <input type="text" placeholder="상반기 결산 빅세일 최대 80% 할인">
   </div>
 
-  <div class="banner-section">
-    <div class="banner--inline">
-      <a
-        href="https://www.musinsa.com/app/plan/views/73711?utm_source=/main/musinsa/recommend&utm_medium=main_display_big_banner&utm_campaign=26">
-        <img src="./img/미니멀&댄디룩.png" alt="댄디룩"></div>
-      </a>
-    </div>
-    <div class="banner--inline">
-      <a
-        href="https://www.musinsa.com/brand/artistwear/plan/73691?utm_source=%2Fmain%2Fmusinsa%2Frecommend&utm_medium=main_display_big_banner&utm_campaign=10&gf=A">
-        <img src="img/반소매티셔츠.png" alt="반소매티셔츠"></div>
-      </a>
-    </div>
-    <div class="banner--inline">
-      <a
-        href="https://www.musinsa.com/app/plan/views/73568?utm_source=/main/musinsa/recommend&utm_medium=main_display_big_banner&utm_campaign=10">
-        <img src="img/클래식의 귀환.png" alt="클래식의 귀환"></div>
-      </a>
-    </div>
-  </div>
-
-
   <main>
-    <!-- <div class="mainbox">콘텐츠</div>
+    <div class="mainbox">콘텐츠</div>
     <div class="mainbox">추천</div>
     <div class="mainbox">랭킹</div>
     <div class="mainbox">세일</div>
     <div class="mainbox">브랜드</div>
     <div class="mainbox">발매</div>
     <div class="mainbox">상반기 결산</div>
-    <div class="mainbox">최저가 보상제</div> -->
+    <div class="mainbox">최저가 보상제</div>
     <div class="mainbox"></div>
 
-    <span class="propose--inline">결산 빅세일</span>
+    <div class="banner-section">
+      <div class="banner--inline">
+        <a
+          href="https://www.musinsa.com/app/plan/views/73711?utm_source=/main/musinsa/recommend&utm_medium=main_display_big_banner&utm_campaign=26">
+          <img src="./img/미니멀&댄디룩.png" alt="댄디룩">
+      </div>
+      </a>
+    </div>
+    <div class="banner--inline">
+      <a
+        href="https://www.musinsa.com/brand/artistwear/plan/73691?utm_source=%2Fmain%2Fmusinsa%2Frecommend&utm_medium=main_display_big_banner&utm_campaign=10&gf=A">
+        <img src="img/반소매티셔츠.png" alt="반소매티셔츠">
+    </div>
+    </a>
+    </div>
+    <div class="banner--inline">
+      <a
+        href="https://www.musinsa.com/app/plan/views/73568?utm_source=/main/musinsa/recommend&utm_medium=main_display_big_banner&utm_campaign=10">
+        <img src="img/클래식의 귀환.png" alt="클래식의 귀환">
+    </div>
+    </a>
+    </div>
+    </div>
+
+
+    <!-- 현재 진행중인 이벤트 -->
+    <div class="propose-section">결산빅세일
+      <div class="propose--inline">
+        <a herf="https://image.msscdn.net/display/images/2025/07/18/4a2ed1623f0c4fcd91148e62ed1d6f22.jpg">
+          <img src="img/결산 빅세일.jpg" alter="결산빅세일">
+        </a>
+      </div>
+    </div>
+    <div class="propose-section">
+      <div class="propose--inline">
+        <a herf="https://image.msscdn.net/display/images/2025/07/18/49244fbdd4ec42a5b09066d16fcad957.jpg">
+          <img src="img/젝시믹스.jpg" alter="젝시믹스">젝시믹스
+        </a>
+      </div>
+    </div>
+    <div class="propose-section">
+      <div class="propose--inline">
+        <a herf="https://image.msscdn.net/display/images/2025/07/24/f264f634dbcd40fba0610d6386307227.jpg">
+          <img src="img/최저가 보상제.jpg" alter="최저가 보상제">
+        </a>
+      </div>
+    </div>
+    <div class="propose-section">
+      <div class="propose--inline">
+        <a herf="https://image.msscdn.net/display/images/2025/06/16/e41af102eb334799b706ed658ba1f2e7.png">
+          <img src="img/돈 버는 회원혜택.png" alter="돈 버는 회원혜택">
+        </a>
+      </div>
+    </div>
+    <div class="propose-section">
+      <div class="propose--inline">
+        <a herf="https://image.msscdn.net/display/images/2025/07/14/0e0e41c0f8684421ba05e0cacf4dc62e.jpg">
+          <img src="img/폭염대비.jpg" alter="폭염대비">
+        </a>
+      </div>
+    </div>
+    <div class="propose-section">
+      <div class="propose--inline">
+        <a herf="https://image.msscdn.net/display/images/2025/07/07/e6e3709df6504c318cd26083acb67180.jpg">
+          <img src="img/990딜.jpg" alter="990딜">
+        </a>
+      </div>
+    </div>
+    <div class="propose-section">
+      <div class="propose--inline">
+        <a herf="https://image.msscdn.net/display/images/2025/07/04/0c608247093e425cb3d5e2c09a51d597.png">
+          <img src="img/무신사머니.png" alter="무신사머니">
+        </a>
+      </div>
+    </div>
+    <div class="propose-section">
+      <div class="propose--inline">
+        <a herf="https://image.msscdn.net/display/images/2025/07/02/7ad5daf9c37c48fda6b30b2ddf8ae5bb.png">
+          <img src="img/상품권 선물하기.png" alter="상품권 선물하기">
+        </a>
+      </div>
+    </div>
+    <div class="propose-section">
+      <div class="propose--inline">
+        <a herf="https://image.msscdn.net/display/images/2025/07/18/18533014f86a4d9f911da3794ed91c49.jpg">
+          <img src="img/브랜드위크.jpg" alter="브랜드위크">
+        </a>
+      </div>
+    </div>
+    <div class="propose-section">
+      <div class="propose--inline">
+        <a herf="https://image.msscdn.net/display/images/2024/08/07/96f77a0c503b436eb7d9c7dba02ace40.png">
+          <img src="img/타임세일.png" alter="타임세일">
+        </a>
+      </div>
+    </div>
+    <div class="propose-section">
+      <div class="propose--inline">
+        <a herf="https://image.msscdn.net/display/images/2025/05/30/d55cb29dc88942b39471bff3c975ed85.png">
+          <img src="img/무배당발.png" alter="무배당발">
+        </a>
+      </div>
+    </div>
+    <div class="propose-section">
+      <div class="propose--inline">
+        <a herf="https://image.msscdn.net/display/images/2025/07/21/4cf4400d448a4d0e8fd03d2c70ea0b48.png">
+          <img src="img/후기왕.png" alter="후기왕">
+        </a>
+      </div>
+    </div>
+    <div class="propose-section">
+      <div class="propose--inline">
+        <a herf="https://image.msscdn.net/display/images/2024/08/12/98e474da44ae4a36befeb6cd7fcdd0ac.png">
+          <img src="img/체험단.png" alter="체험단">
+        </a>
+      </div>
+    </div>
+    <div class="propose-section">
+      <div class="propose--inline">
+        <a herf="https://image.msscdn.net/display/images/2025/07/25/f208db7484d94ab59189183291b0d7a5.png">
+          <img src="img/업사이클 케이스.png" alter="업사이클 케이스">
+        </a>
+      </div>
+    </div>
+    <div class="propose-section">
+      <div class="propose--inline">
+        <a herf="https://image.msscdn.net/display/images/2024/10/16/3fa16f5e009f45b2b06589dcb32246f8.png">
+          <img src="img/라이브.png" alter="라이브">
+        </a>
+      </div>
+    </div>
+
+    <!-- <span class="propose--inline">결산 빅세일</span>
     <span class="propose--inline">젝시믹스</span>
     <span class="propose--inline">코난 극장판</span>
     <span class="propose--inline">전북 현대 30주년</span>
@@ -204,7 +311,7 @@
     <span class="propose--inline">후기왕</span>
     <span class="propose--inline">체험단</span>
     <span class="propose--inline">귀여운 키링</span>
-    <span class="propose--inline">라이브</span>
+    <span class="propose--inline">라이브</span> -->
 
     <section>
       <div class="fitness">
@@ -281,14 +388,14 @@
     </section>
     </div>
   </main>
-  <div class="사업자정보"></div>
-  <div class="법적고지사항"></div>
-  <div class="파트너지원"></div>
-  <div class="고객지원"></div>
-  <div class="저작권메시지"></div>
-  <div class="방침,약관,위탁사"></div>
-  <div class="메시지"></div>
-  <div class="아이콘"></div>
+  <div class="사업자정보">사업자정보</div>
+  <div class="법적고지사항">법적고지사항</div>
+  <div class="파트너지원">파트너지원</div>
+  <div class="고객지원">고객지원</div>
+  <div class="저작권메시지">저작권메시지</div>
+  <div class="방침,약관,위탁사">방침,약관,위탁사</div>
+  <div class="메시지">메시지</div>
+  <div class="아이콘">아이콘</div>
 </body>
 
 </html>
