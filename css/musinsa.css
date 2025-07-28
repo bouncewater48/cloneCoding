@@ -1,4 +1,116 @@
+* {
+    margin: 0;
+    border: 0;
+    /* background-color: black; */
+    /* color: white; */
+  }
 
+  /* 화면 최상단 메뉴창 */
+  menu-container {
+    border: 2px solid black;
+    margin: 0px;
+    background-color: black;
+    color: white;
+    height: 22px;
+  }
+
+  menu {
+    margin: 2;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    /* flex-wrap: wrap; */
+    border: 4px;
+    display: inleine-block;
+  }
+
+  banner-section {
+    display: flex;
+  }
+
+  banner--inline {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+  }
+
+  banner--inline img {
+    width: 500px;
+    height: 500px;
+  }
+
+
+  mainbox {
+    border: 2px;
+  }
+
+  position_relative-container {
+    border: 1px solid #000;
+    margin: 5px;
+    flex-direction: row;
+    right: 0px;
+  }
+
+  position_relative {
+    margin: 2px;
+    color: white;
+    right: 0px;
+    top: 25px;
+    font-size: 11px;
+  }
+
+  MUSINSA {
+    color: black;
+  }
+
+  logo {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    right: 20px;
+  }
+
+  logo-container {
+    border: 50px solid white;
+    color: white;
+    padding: 10%;
+    vertical-align: top;
+    /* align-items: center; */
+  }
+
+  mainbox:hover {
+    width: 200px;
+    height: 100px;
+  }
+
+  propose--inline-container{
+    display: flex;
+  }
+
+  propose--section {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  propose--inline {
+    /* border: 1px solid black;
+    font: bold;
+    padding: 5px 10px;
+    background-color: white;
+    font-size: 9px;
+    color: black;
+    width: 100px;
+    height: 100px;
+    display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
 /* <li>
 <a herf="link">https://www.musinsa.com/brand/mozmoz/products?sortCode=SALE_ONE_MONTH_COUNT&utm_source=/main/musinsa/recommend&utm_medium=main_display_big_banner&utm_campaign=4

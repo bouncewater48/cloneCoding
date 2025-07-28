@@ -5,110 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MUSINSA CloneCoding</title>
-  <style>
-    * {
-      margin: 0;
-      border: 0;
-      /* background-color: black; */
-      /* color: white; */
-    }
-
-
-    .menu-container {
-      border: 1px solid black;
-      margin: 2px;
-      background-color: black;
-      color: white;
-      height: 22px;
-    }
-
-    .menu {
-      margin: 2;
-      background-color: black;
-      color: white;
-      font-size: 12px;
-      /* flex-wrap: wrap; */
-      border: 2px;
-      display: inleine-block;
-    }
-
-    .banner-section {
-      display: flex;
-    }
-
-    .banner--inline {
-      flex: 1;
-      position: relative;
-      display: inline-block;
-    }
-
-    .banner--inline img {
-      width: 500px;
-      height: 500px;
-    }
-
-
-    .mainbox {
-      border: 2px;
-    }
-
-    .position_relative-container {
-      border: 1px solid #000;
-      margin: 5px;
-      flex-direction: row;
-      right: 0px;
-    }
-
-    .position_relative {
-      margin: 2px;
-      color: white;
-      right: 0px;
-      top: 25px;
-      font-size: 11px;
-    }
-
-
-    .MUSINSA {
-      color: black;
-    }
-
-    .logo {
-      font-size: 20px;
-      background-color: black;
-      color: white;
-    }
-
-    .logo-container {
-      border: 50px solid white;
-      color: white;
-      padding: 10%;
-    }
-
-
-    .mainbox:hover {
-      width: 200px;
-      height: 100px;
-    }
-
-    .propose--section {
-      width: 10px;
-      height: 10px;
-    }
-
-    .propose--inline {
-      border: 1px solid black;
-      font: bold;
-      padding: 5px 10px;
-      background-color: white;
-      font-size: 9px;
-      color: black;
-      width: 10px;
-      height: 10px;
-      display: inline-block;
-      display: flex;
-
-    }
-  </style>
+  <link rel='stylesheet' href='./../css/musinsa.css'>
 </head>
 
 <body>
@@ -120,8 +17,12 @@
       <img src="img/free-icon-menu-4315559.png" width="15px" height="16px" color="white" alt="줄바꿈3개라인">
     </a>
     <span class="menu">|</span>
-    <span class="menu">MUSINSA</span>
-    <span class="menu">BEAUTY</span>
+    <span class="menu">
+      <a href="https://www.musinsa.com/main/musinsa" target="_blank">MUSINSA</a>
+    </span>
+    <span class="menu">
+      <a href="https://www.musinsa.com/main/beauty" target="_blank">BEAUTY</a>
+    </span>
     <span class="menu">PLAYER</span>
     <span class="menu">OUTLET</span>
     <span class="menu">BOUTIQUE</span>
@@ -185,134 +86,115 @@
 
 
     <!-- 현재 진행중인 이벤트 -->
-    <span class="propose-section">
-      <span class="propose--inline">
-        <a herf="https://image.msscdn.net/display/images/2025/07/18/4a2ed1623f0c4fcd91148e62ed1d6f22.jpg"
+    <div class="propose-section">
+      <div class="propose--inline">
+        <a href="https://www.musinsa.com/app/campaign/index/2025seasonoff1"
           target="_blank">
           <img src="img/결산 빅세일.jpg" alter="결산빅세일 border=" 0" width="10px" height="10px">
-          <span class=" 이벤트문자">결산빅세일
-          </span>
-      </span>
+          <div class=" 이벤트문자">결산빅세일
+          </div>
+      </div>
       </a>
-      <span class="propose--inline">
-        <a herf="https://image.msscdn.net/display/images/2025/07/18/49244fbdd4ec42a5b09066d16fcad957.jpg"
+      <div class="propose--inline">
+        <a href="https://www.musinsa.com/brand/xexymix?gf=A"
           target="_blank">
           <img src="img/젝시믹스.jpg" alter="젝시믹스" border="0" width="10px" height="10px">
-          <span class="이벤트문자">젝시믹스</span>
+          <div class="이벤트문자">젝시믹스
+          </div>
         </a>
-      </span>
-      <span class="propose--inline">
-        <a herf="https://image.msscdn.net/display/images/2025/07/24/f264f634dbcd40fba0610d6386307227.jpg"
+      </div>
+      <div class="propose--inline">
+        <a href="https://www.musinsa.com/campaign/lowestprice2507"
           target="_blank">
           <img src="img/최저가 보상제.jpg" alter="최저가 보상제" border="0" width="10px" height="10px">
           <div class="이벤트문자">최저가 보상제</div>
         </a>
-      </span>
-      <span class="propose--inline">
-        <a herf="https://image.msscdn.net/display/images/2025/06/16/e41af102eb334799b706ed658ba1f2e7.png"
+      </div>
+      <div class="propose--inline">
+        <a href="https://www.musinsa.com/onboarding/benefit"
           target="_blank">
           <img src="img/돈 버는 회원혜택.png" alter="돈 버는 회원혜택" border="0" width="10px" height="10px">
           <div class="이벤트문자">돈 버는 회원혜택</div>
         </a>
-      </span>
-      <span class="propose--inline">
-        <a herf="https://image.msscdn.net/display/images/2025/07/14/0e0e41c0f8684421ba05e0cacf4dc62e.jpg"
+      </div>
+      <div class="propose--inline">
+        <a href="https://www.musinsa.com/content/1397009159395190399"
           target="_blank">
           <img src="img/폭염대비.jpg" alter="폭염대비" border="0" width="10px" height="10px">
           <div class="이벤트문자">폭염대비</div>
         </a>
-      </span>
-      <span class="propose--inline">
-        <a herf="https://image.msscdn.net/display/images/2025/07/07/e6e3709df6504c318cd26083acb67180.jpg"
+      </div>
+      <div class="propose--inline">
+        <a href="https://www.musinsa.com/campaign/monthly_990deal"
           target="_blank">
           <img src="img/990딜.jpg" alter="990딜" border="0" width="10px" height="10px">
           <div class="이벤트문자">990딜</div>
         </a>
-      </span>
-      <span class="propose--inline">
-        <a herf="https://image.msscdn.net/display/images/2025/07/04/0c608247093e425cb3d5e2c09a51d597.png"
+      </div>
+      <div class="propose--inline">
+        <a href="https://www.musinsa.com/order/information/musinsa-money"
           target="_blank">
           <img src="img/무신사머니.png" alter="무신사머니" border="0" width="10px" height="10px">
           <div class="이벤트문자">무신사머니</div>
         </a>
-      </span>
-      <span class="propose--inline">
-        <a herf="https://image.msscdn.net/display/images/2025/07/02/7ad5daf9c37c48fda6b30b2ddf8ae5bb.png"
+      </div>
+      <div class="propose--inline">
+        <a href="https://www.musinsa.com/app/plan/views/72216"
           target="_blank">
           <img src="img/상품권 선물하기.png" alter="상품권 선물하기" border="0" width="10px" height="10px">
           <div class="이벤트문자">상품권 선물하기</div>
         </a>
-      </span>
-      <span class="propose--inline">
-        <a herf="https://image.msscdn.net/display/images/2025/07/18/18533014f86a4d9f911da3794ed91c49.jpg"
+      </div>
+      <div class="propose--inline">
+        <a href="https://www.musinsa.com/campaign/2025_brandweek"
           target="_blank">
           <img src="img/브랜드위크.jpg" alter="브랜드위크" border="0" width="10px" height="10px">
           <div class="이벤트문자">브랜드위크</div>
         </a>
-      </span>
-      <span class="propose--inline">
-        <a herf="https://image.msscdn.net/display/images/2024/08/07/96f77a0c503b436eb7d9c7dba02ace40.png"
+      </div>
+      <div class="propose--inline">
+        <a href="https://www.musinsa.com/main/musinsa/sale"
           target="_blank">
           <img src="img/타임세일.png" alter="타임세일" border="0" width="10px" height="10px">
           <div class="이벤트문자">타임세일</div>
         </a>
-      </span>
-      <span class="propose--inline">
-        <a herf="https://image.msscdn.net/display/images/2025/05/30/d55cb29dc88942b39471bff3c975ed85.png"
+      </div>
+      <div class="propose--inline">
+        <a href="https://www.musinsa.com/plusdelivery"
           target="_blank">
           <img src="img/무배당발.png" alter="무배당발" border="0" width="10px" height="10px">
           <div class="이벤트문자">무배당발</div>
         </a>
-      </span>
-      <span class="propose--inline">
-        <a herf="https://image.msscdn.net/display/images/2025/07/21/4cf4400d448a4d0e8fd03d2c70ea0b48.png"
+      </div>
+      <div class="propose--inline">
+        <a href="https://www.musinsa.com/review/top-reviewers"
           target="_blank">
           <img src="img/후기왕.png" alter="후기왕" border="0" width="10px" height="10px">
           <div class="이벤트문자">후기왕</div>
         </a>
-      </span>
-      <span class="propose--inline">
-        <a herf="https://image.msscdn.net/display/images/2024/08/12/98e474da44ae4a36befeb6cd7fcdd0ac.png"
+      </div>
+      <div class="propose--inline">
+        <a href="https://www.musinsa.com/preuser/main"
           target="_blank">
           <img src="img/체험단.png" alter="체험단" border="0" width="10px" height="10px">
           <div class="이벤트문자">체험단</div>
         </a>
-      </span>
-      <span class="propose--inline">
-        <a herf="https://image.msscdn.net/display/images/2025/07/25/f208db7484d94ab59189183291b0d7a5.png"
+      </div>
+      <div class="propose--inline">
+        <a href="https://image.msscdn.net/display/images/2025/07/25/f208db7484d94ab59189183291b0d7a5.png"
           target="_blank">
           <img src="img/업사이클 케이스.png" alter="업사이클 케이스" border="0" width="10px" height="10px">
           <div class="이벤트문자">업사이클 케이스</div>
         </a>
-      </span>
-      <span class="propose--inline">
-        <a herf="https://image.msscdn.net/display/images/2024/10/16/3fa16f5e009f45b2b06589dcb32246f8.png"
+      </div>
+      <div class="propose--inline">
+        <a heref="https://www.musinsa.com/app/campaign/index/musinsa_live"
           target="_blank">
           <img src="img/라이브.png" alter="라이브" border="0" width="10px" height="10px">
           <div class="이벤트문자">라이브</div>
         </a>
-      </span>
-    </span>
-
-    <!-- <span class="propose--inline">결산 빅세일</span>
-    <span class="propose--inline">젝시믹스</span>
-    <span class="propose--inline">코난 극장판</span>
-    <span class="propose--inline">전북 현대 30주년</span>
-    <span class="propose--inline">최저가 보상제</span>
-    <span class="propose--inline">돈 버는 회원혜택</span>
-    <span class="propose--inline">폭염대비</span>
-    <span class="propose--inline">한화이글스</span>
-    <span class="propose--inline">전남드래곤즈</span>
-    <span class="propose--inline">990딜</span>
-    <span class="propose--inline">무신사머니</span>
-    <span class="propose--inline">상품권 선물하기</span>
-    <span class="propose--inline">브랜드위크</span>
-    <span class="propose--inline">타임세일</span>
-    <span class="propose--inline">무배당발</span>
-    <span class="propose--inline">후기왕</span>
-    <span class="propose--inline">체험단</span>
-    <span class="propose--inline">귀여운 키링</span>
-    <span class="propose--inline">라이브</span> -->
+      </div>
+    </div>
 
     <section>
       <div class="fitness">
